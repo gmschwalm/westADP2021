@@ -5,13 +5,12 @@ public class Hamburger{
     public static void main(String [] args){
         Scanner hb = new Scanner(System.in);
         System.out.println("How many? (int): ");
-        int h = sc.nextInt();
+        int h = hb.nextInt();
         hamburger(h);
     }
-}
-
-public void hamburger(int h){
-  for(int i = 0; i < h; i++){
-  System.out.println("hamburger");
-  }
+    public static void hamburger(int h){
+    for(int i = 0; i < h; i++){
+    System.out.println("hamburger");
+    }
+    }
 }
