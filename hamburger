@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 public class Hamburger{
-    public static final void main(String [] args){
+    public static void main(String [] args){
         Scanner hb = new Scanner(System.in);
         System.out.println("How many? (int): ");
         int h = sc.nextInt();
