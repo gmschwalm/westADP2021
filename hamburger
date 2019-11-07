@@ -12,6 +12,6 @@ public class Hamburger{
 
 public void hamburger(int h){
   for(int i = 0; i < h; i++){
-  System.out.println("Hamburger");
+  System.out.println("hamburger");
   }
 }
