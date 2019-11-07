@@ -4,13 +4,15 @@ import java.util.Scanner;
 public class Hamburger{
     public static void main(String [] args){
         Scanner hb = new Scanner(System.in);
+        
         System.out.println("How many? (int): ");
         int h = hb.nextInt();
         hamburger(h);
+        System.out.println("That was " + h + " hamburgers (in case you were curious).");
     }
     public static void hamburger(int h){
     for(int i = 0; i < h; i++){
     System.out.println("hamburger");
-    }
+        }
     }
 }
