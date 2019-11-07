@@ -1,0 +1,17 @@
+//this is for you, Henry
+
+import java.util.Scanner;
+public class Hamburger{
+    public static final void main(String [] args){
+        Scanner hb = new Scanner(System.in);
+        System.out.println("How many? (int): ");
+        int h = sc.nextInt();
+        hamburger(h);
+    }
+}
+
+public void hamburger(int h){
+  for(int i = 0; i < h; i++){
+  System.out.println("Hamburger");
+  }
+}
